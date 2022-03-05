@@ -17,19 +17,20 @@
         
         <h1>Thanks for joining our email list using MVC</h1>
         <p>Here is the information that you entered:</p>
+        <p>${globalCount}</p>
         
         <table cellspacing="5" cellpadding="5" border="1">
             <tr>
                 <td align="right">First name:</td>
-                <td></td>
+                <td>${user.firstName}</td>
             </tr>
             <tr>
                 <td align="right">Last name:</td>
-                <td></td>
+                <td>${user.lastName}</td>
             </tr>
             <tr>
                 <td align="right">Email Address:</td>
-                <td></td>
+                <td>${user.emailAddress}</td>
             </tr>
         </table>
         <h2>
